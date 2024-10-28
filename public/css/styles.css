@@ -1,0 +1,75 @@
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+form {
+    width: 30em;
+    max-width: 90%;
+    margin: 10px 20px 20px 0;
+}
+
+label,
+input,
+select{
+    font-size: 1.3rem;
+    line-height: 1.2
+}
+
+a{
+    color: royalblue;
+}
+
+input{
+    padding: 0.5rem;
+    width: 500px;
+}
+
+button {
+    margin-top: 2rem;
+}
+
+.frame {
+    box-sizing: border-box;
+    width: 600px;
+    height: auto;
+    margin: 20px 20px 20px 0;
+    border-style: solid;
+    border-radius: 7%;
+    border-width: 3px;
+    word-break: break-all;
+}
+
+.frame-dashed {
+    box-sizing: border-box;
+    width: 600px;
+    height: auto;
+    margin: 20px 20px 20px 0;
+    border-style: dashed;
+    border-radius: 7%;
+    border-width: 3px;
+    word-break: break-all;
+}
+
+.center{
+    text-align: center;
+}
+
+.content{
+    margin: 20px;
+}
+
+.form-content{
+    margin: 10px 0 10px 0;
+}
+
+.font-bigger{
+    font-size: 1.8rem;
+}
+
+.flex-container {
+    display: flex;
+    /*width: 600px;*/
+    flex-wrap: wrap;
+}
